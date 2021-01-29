@@ -1,0 +1,40 @@
+{
+    "d19b-4ed3-ad02": {
+        "fields": {
+            "8341-49af-b7a6": {
+                "id": "8341-49af-b7a6", 
+                "name": "name", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "ebfa-432e-b1bd": {
+                "id": "ebfa-432e-b1bd", 
+                "name": "image", 
+                "required": false, 
+                "type": "image", 
+                "vary": false
+            }
+        }, 
+        "name": "Hello Bear"
+    }, 
+    "ba5e-46de-b43e": {
+        "fields": {
+            "cfcb-413a-a6c6": {
+                "id": "cfcb-413a-a6c6", 
+                "name": "name", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "0a3d-4613-a5aa": {
+                "id": "0a3d-4613-a5aa", 
+                "name": "image", 
+                "required": false, 
+                "type": "image", 
+                "vary": false
+            }
+        }, 
+        "name": "ml"
+    }
+}

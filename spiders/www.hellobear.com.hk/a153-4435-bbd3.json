@@ -1,0 +1,82 @@
+{
+    "extractors": {},
+    "id": "a153-4435-bbd3",
+    "name": "test",
+    "page_id": "",
+    "page_type": "item",
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    },
+                    "container_id": null,
+                    "id": "b14c-4008-b985",
+                    "item_container": true,
+                    "repeated": false,
+                    "required": [],
+                    "schema_id": "ba5e-46de-b43e",
+                    "selector": ".pd-box",
+                    "siblings": 0,
+                    "tagid": null,
+                    "text-content": "#portia-content"
+                },
+                {
+                    "accept_selectors": [
+                        ".Product-title"
+                    ],
+                    "container_id": "b14c-4008-b985",
+                    "data": {
+                        "0c05-4b27-9a2c": {
+                            "attribute": "content",
+                            "extractors": {},
+                            "field": "cfcb-413a-a6c6",
+                            "required": false
+                        }
+                    },
+                    "id": "559e-49b7-ba79",
+                    "post_text": null,
+                    "pre_text": null,
+                    "reject_selectors": [],
+                    "repeated": false,
+                    "required": [],
+                    "selection_mode": "auto",
+                    "selector": ".pd-box > div:nth-child(2) > .ProductDetail-product > .ProductDetail-product-info > .box-default > .Product-title",
+                    "tagid": null,
+                    "text-content": "content",
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" pd-box \")]/div[2]/*[contains(concat(\" \", @class, \" \"), \" ProductDetail-product \")]/*[contains(concat(\" \", @class, \" \"), \" ProductDetail-product-info \")]/*[contains(concat(\" \", @class, \" \"), \" box-default \")]/*[contains(concat(\" \", @class, \" \"), \" Product-title \")]"
+                },
+                {
+                    "accept_selectors": [
+                        ".ProductDetail-gallery > ul > li:nth-child(6) > .sl-lazy-image"
+                    ],
+                    "container_id": "b14c-4008-b985",
+                    "data": {
+                        "8d9a-4232-ac10": {
+                            "attribute": "src",
+                            "extractors": {},
+                            "field": "0a3d-4613-a5aa",
+                            "required": false
+                        }
+                    },
+                    "id": "1b92-459e-89c9",
+                    "post_text": null,
+                    "pre_text": null,
+                    "reject_selectors": [],
+                    "repeated": false,
+                    "required": [],
+                    "selection_mode": "auto",
+                    "selector": ".pd-box > .ProductDetail-additionalInfo > .col-xs-12 > .Tabset > .active > .ProductDetail-gallery > ul > li:nth-child(6) > .sl-lazy-image",
+                    "tagid": null,
+                    "text-content": "content",
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" pd-box \")]/*[contains(concat(\" \", @class, \" \"), \" ProductDetail-additionalInfo \")]/*[contains(concat(\" \", @class, \" \"), \" col-xs-12 \")]/*[contains(concat(\" \", @class, \" \"), \" Tabset \")]/*[contains(concat(\" \", @class, \" \"), \" active \")]/*[contains(concat(\" \", @class, \" \"), \" ProductDetail-gallery \")]/ul/li[6]/*[contains(concat(\" \", @class, \" \"), \" sl-lazy-image \")]"
+                }
+            ]
+        }
+    },
+    "scrapes": "ba5e-46de-b43e",
+    "spider": "www.hellobear.com.hk",
+    "url": "https://www.hellobear.com.hk/products/taiwan-hocom-glass-stain-scale-spray-cleaning-with-magic-sponge-500ml",
+    "version": "0.13.3"
+}
